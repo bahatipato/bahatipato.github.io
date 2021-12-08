@@ -198,12 +198,15 @@ footer{
 /*media queries*/
 @media (max-width:100vh) {
  body, header #branding,header nav,header nav li,
-  #newsletter h1, #newsletter form,#boxes .box,article#main-col, figure img,
+  #newsletter h1, #newsletter form,#boxes .box,article#main-col, 
   aside#sidebar{
     float:none;
     text-align: center;
     width: 100%;
 
+  }
+  figure img{
+    height:100%
   }
   header{
     padding-bottom: 20px;
