@@ -198,7 +198,7 @@ footer{
 /*media queries*/
 @media (max-width:100vh) {
  body, header #branding,header nav,header nav li,
-  #newsletter h1, #newsletter form,#boxes .box,article#main-col,
+  #newsletter h1, #newsletter form,#boxes .box,article#main-col, figure img,
   aside#sidebar{
     float:none;
     text-align: center;
