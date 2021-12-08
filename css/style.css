@@ -18,7 +18,6 @@ body{
 ul{
   margin: 0;
   padding: 0;
-#e8491d
 }
 .button_1{
   height: 38px;
@@ -145,17 +144,8 @@ header a:hover{
     position: relative;
     text-align: center;
 }
-/* .title::before{
-  content: '';
-  background-color: #d10074;
-  display: block;
-  height: .5rem;
-  left: 600px;
-  position: absolute;
-  top: 0;
-  width: 4rem;
-} */
-.title::after{
+
+/* .title::after{
   content: '';
   background-color: #d10074;
   display: block;
@@ -165,7 +155,7 @@ header a:hover{
   bottom: 0;
   width: 12rem;
 }
-
+ */
 /*sidebar*/
 aside#sidebar{
   float: right;
@@ -207,7 +197,7 @@ footer{
 }
 /*media queries*/
 @media (max-width:100vh) {
-  header #branding,header nav,header nav li,
+ body, header #branding,header nav,header nav li,
   #newsletter h1, #newsletter form,#boxes .box,article#main-col,
   aside#sidebar{
     float:none;
